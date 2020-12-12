@@ -17,14 +17,13 @@ This is a PWA budget tracker app where provides user a streamline expereience on
 
 # Git Repository:
 ###
-<br>https://github.com/pankuanting102/Online-Offline-Budget-Trackers
+https://github.com/pankuanting102/Online-Offline-Budget-Trackers
 <br>
 
 # Deployed App:
 ###
-<br>https://budget-tracker-ktp.herokuapp.com/
+https://budget-tracker-ktp.herokuapp.com/
 
-<br>
 <br><div style="width: 90vw; margin: auto; border: 1px black solid">
 <img src="https://github.com/pankuanting102/Online-Offline-Budget-Trackers/blob/master/public/asset/budget_tracker.gif?raw=true">
 </div>
