@@ -7,13 +7,11 @@ const FILES_TO_CACHE  = [
     '/style.css',
     '/index.js',
     '/indexedDB.js',
-    '/icons/icon-192x192.png',
-    '/icons/icon-512x512.png',
     "/manifest.webmanifest",
     'https://fonts.googleapis.com/css?family=Istok+Web|Montserrat:800&display=swap',
     'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
-    '/index.js',
-    '/indexedDB.js',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png',
   ];
   
 
@@ -23,7 +21,7 @@ const FILES_TO_CACHE  = [
 self.addEventListener("install", function (evt) {
   // pre cache image data
   evt.waitUntil(
-    caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/images"))
+    caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transaction"))
   );
     
   // pre cache all static assets
